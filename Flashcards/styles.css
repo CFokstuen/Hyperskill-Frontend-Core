@@ -1,0 +1,158 @@
+body {
+    background-image: url("world.png");
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #F07504;
+}
+
+.square {
+    text-align: center;
+    width: 30vw;
+    height: 30vw;
+    margin-left: 40%;
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    position: relative;
+    margin: 17px;
+    height: 28%;
+    width: 28%;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #974a02, 1px -1px 0 #974a02, -1px 1px 0 #974a02, 1px 1px 0 #974a02;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: all 0.7s linear;
+    transform-style:  preserve-3d;
+}
+
+.front, .back {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+}
+
+.front {
+    background: #F5EDE0;
+    z-index: 2;
+    backface-visibility: hidden;
+    font-size: 26px;
+    color: #F07504;
+}
+
+.back {
+    background: #F07504;
+    z-index: 1;
+    transform: rotateY(180deg);
+    font-size: 26px;
+    color: #F5EDE0;
+}
+
+.container:hover .card{
+    transform: rotateY(180deg);
+}
+
+footer {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: #F07504;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #F5EDE0;
+}
+
+/* Flags */
+#ge .front {
+    background-image: url("ge.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hn .front {
+    background-image: url("hn.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#is .front {
+    background-image: url("is.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#kr .front {
+    background-image: url("kr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mx .front {
+    background-image: url("mx.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#pg .front {
+    background-image: url("pg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#se .front {
+    background-image: url("se.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#tn .front {
+    background-image: url("tn.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#at .front {
+    background-image: url("at.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
