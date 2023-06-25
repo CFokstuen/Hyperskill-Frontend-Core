@@ -1,0 +1,232 @@
+header {
+    min-height: 60px;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 4px 0;
+}
+
+header a {
+    color: #fff;
+}
+
+#link_logo img,
+#link_home,
+#link_product,
+#link_contact {
+    color: #fff;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+body {
+    max-height: 600px;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #8e8e8e;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 4px 16px;
+}
+
+#home {
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(248, 249, 250);
+}
+
+#product {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#col-1,
+#col-2 {
+    text-align: center;
+    overflow: hidden;
+    flex: 1;
+}
+
+#col-1 > div,
+#col-2 > div {
+    margin-bottom: 16px;
+}
+
+#col-1 h2,
+#col-2 h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#col-1 p,
+#col-2 p {
+    font-size: 16px;
+}
+
+#col-1 img,
+#col-2 img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+header {
+    min-height: 60px;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 4px 0;
+}
+
+main {
+    min-height: 360px;
+    background-color: #E8ECED;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.85);
+    min-height: 180px;
+    max-width: 100%;
+    padding: 3rem 1rem;
+}
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contact-col1 {
+    max-width: 100%;
+    padding: 0 1rem;
+    margin: 0 70.5547px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#contact-col1 > div {
+    margin: 10px 0;
+}
+
+#footer_link_logo {
+    margin: 10px 0;
+    color: rgb(108, 117, 125);
+    text-decoration: none solid rgb(108, 117, 125);
+}
+
+#contact-col1 > p {
+    color: rgb(108, 117, 125);
+}
+
+#footer_link_home,
+#footer_link_product,
+#footer_link_contact {
+    margin-right: 16px;
+    color: rgb(108, 117, 125);
+    text-decoration: none solid rgb(108, 117, 125);
+}
+
+form > div {
+    margin-bottom: 16px;
+}
+
+#contact-col2 {
+    max-width: 100%;
+    padding: 0 16px;
+    margin: 0
+}
+#contact-col2 {
+    max-width: 100%;
+    padding: 0 16px;
+    margin: 0 70.5547px;
+}
+
+h5 {
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: rgb(248, 249, 250);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(248, 249, 250);
+}
+
+#email {
+    width: 227.906px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 4px;
+}
+
+button {
+    width: 227.906px;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    text-decoration: none solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(108, 117, 125);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#banner {
+    text-align: center;
+    overflow: hidden;
+}
+
+#banner h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#banner p {
+    font-size: 18px;
+}
+
+#banner a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    font-size: 16px;
+}
