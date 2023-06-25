@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+<header>
+    <nav>
+        <a id="link_logo" href="#home">
+            <img width="64" height="64" class="logo" src="logo.png" alt="logo" title="logo">
+        </a>
+        <a href="#home" id="link_home">Home</a>
+        <a href="#product" id="link_product">Product</a>
+        <a href="#contact" id="link_contact">Contact</a>
+    </nav>
+</header>
+<main>
+    <div id="home">
+        <h1>First Landing</h1>
+        <p>Random text followed by more random text</p>
+        <a href="#product" class="button">Coming soon</a>
+    </div>
+    <div id="product">
+        <div id="col-1">
+            <div>
+                <h2>Product 1</h2>
+                <p>Description 1</p>
+            </div>
+            <img src="image1.jpg" alt="Product 1" title="Product 1">
+        </div>
+        <div id="col-2">
+            <div>
+                <h2>Product 2</h2>
+                <p>Description 2</p>
+            </div>
+            <img src="image2.jpg" alt="Product 2" title="Product 2">
+        </div>
+        <div id="col-3">
+            <div>
+                <h2>Product 3</h2>
+                <p>Description 3</p>
+            </div>
+            <img src="image3.jpg" alt="Product 3" title="Product 3">
+        </div>
+        <div id="col-4">
+            <div>
+                <h2>Product 4</h2>
+                <p>Description 4</p>
+            </div>
+            <img src="image4.jpg" alt="Product 4" title="Product 4">
+        </div>
+    </div>
+</main>
+<footer>
+    <div id="contact">
+        <div id="contact-col1">
+            <a id="footer_link_logo" href="#home">
+                <img width="64" height="64" class="logo" src="logo.png" alt="logo" title="logo">
+            </a>
+            <div>
+                <a id="footer_link_home" href="#home">Home</a>
+                <a id="footer_link_product" href="#product">Product</a>
+                <a id="footer_link_contact" href="#contact">Contact</a>
+            </div>
+            <p>&copy; 2023 Your Website Name</p>
+        </div>
+        <div id="contact-col2">
+            <form>
+                <h5>Contact Us</h5>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <label for="subscribe">
+                        <input type="checkbox" id="subscribe" name="subscribe" required>
+                        Subscribe to Newsletter
+                    </label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
