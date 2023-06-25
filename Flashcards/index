@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hyperskill Flashcards</title>
+</head>
+<body>
+<h1> What is the capital city of...</h1>
+<div class="square">
+    <div class="content">
+        <div class="container">
+            <div class="card" id="mx">
+                <div class="front"><p>MEXICO</p></div>
+                <div class="back"><p>Mexico City</p></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="pg">
+                <div class="front"><p>PAPUA NEW GUINEA</p></div>
+                <div class="back"><p>Port Moresby</p></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="is">
+                <div class="front"><p>ICELAND</p></div>
+                <div class="back"><p>Reykjavík</p></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="kr">
+                <div class="front"><p>SOUTH KOREA</p></div>
+                <div class="back"><p>Seoul</p></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="se">
+                <div class="front"><p>SWEDEN</p></div>
+                <div class="back"><p>Stockholm</p></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="ge">
+                <div class="front"><p>GEORGIA</p></div>
+                <div class="back"><p>Tbilsi</p></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="hn">
+                <div class="front"><p>HONDURAS</p></div>
+                <div class="back"><p>Tegucigalpa</p></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="tn">
+                <div class="front"><p>TUNISIA</p></div>
+                <div class="back"><p>Tunis</p></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="at">
+                <div class="front"><p>AUSTRIA</p></div>
+                <div class="back"><p>Vienna</p></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <footer>This is a Hyperskill project titled Flashcards, from their course Introduction to HTMl and CSS.</footer>
+</div>
+</body>
+</html>
